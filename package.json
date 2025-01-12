@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-rb",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "author": "RB",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "inquirer": "^12.0.1",
+    "nodemailer": "^6.9.16",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": []
+}
